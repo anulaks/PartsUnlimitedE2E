@@ -8,7 +8,7 @@ namespace PartsUnlimited.Models
         // My first Comment
         [Key]
         public int CartItemId { get; set; }
-
+//my second comment
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
